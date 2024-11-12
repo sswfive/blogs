@@ -9,7 +9,7 @@ import type { GiscusConfig } from './src/components/Comment'
 const config: Config = {
   title: 'PyShen&Blog',
   url: 'https://sswfive.github.io/',
-  baseUrl: '/blogs',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'https://sswfive.github.io',
   projectName: 'blog',
@@ -31,11 +31,11 @@ const config: Config = {
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, web',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 主攻ts全栈',
+        content: '编程爱好者, Web开发者, 写过爬虫',
       },
     ],
     docs: {
@@ -91,7 +91,7 @@ const config: Config = {
         // },
       ],
       copyright: `
-        <p>Copyright © 2020 - ${new Date().getFullYear()} kuizuo. | Built with Docusaurus.</p>
+        <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
         `,
     },
     algolia: {
