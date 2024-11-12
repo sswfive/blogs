@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"\u535a\u6587","items":[{"title":"Hello Python","permalink":"/blog/hello-python","unlisted":false,"date":"2024-06-28T20:00:00.000Z"}]}')}}]);
