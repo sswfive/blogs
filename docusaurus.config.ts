@@ -1,7 +1,7 @@
-import type * as Preset from '@docusaurus/preset-classic'
-import type { Config } from '@docusaurus/types'
-import { themes } from 'prism-react-renderer'
-import type { GiscusConfig } from './src/components/Comment'
+import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types';
+import { themes } from 'prism-react-renderer';
+import type { GiscusConfig } from './src/components/Comment';
 
 // const beian = '闽ICP备2020017848号-2'
 // const beian1 = '闽公网安备35021102000847号'
@@ -10,7 +10,7 @@ const config: Config = {
   title: 'PyShen&Blog',
   url: 'https://sswfive.github.io/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/head.png',
   organizationName: 'https://sswfive.github.io',
   projectName: 'blog',
   customFields: {
@@ -23,7 +23,7 @@ const config: Config = {
     //   id: 'announcementBar-3',
     //   content: ``,
     // },
-    image: 'img/og.png',
+    image: 'img/head.png',
     metadata: [
       {
         name: 'author',
@@ -46,21 +46,24 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'PyShen',
-        src: 'img/logo.webp',
-        srcDark: 'img/logo.webp',
+        src: 'img/head.png',
+        srcDark: 'img/head.png',
       },
       hideOnScroll: true,
       items: [
         { label: '博客', position: 'right', to: 'blog' },
-        // { label: '项目', position: 'right', to: 'project' },
+        { label: '知识库', position: 'right', to: 'docs/skill' },
+        { label: '捕蛇者说', position: 'right', to: 'python' },
+        { label: '工欲善器', position: 'right', to: 'docs/tools' },
         // { label: '友链', position: 'right', to: 'friends' },
-        { label: '关于', position: 'right', to: 'about' },
+        // { label: '关于', position: 'right', to: 'about' },
         {
           label: '更多',
           position: 'right',
           items: [
             { label: '归档', to: 'blog/archive' },
-            { label: '笔记', to: 'docs/skill' },
+            { label: '关于', to: 'about' }
+            // { label: '笔记', to: 'docs/skill' },
             // { label: '工具推荐', to: 'docs/tools' },
           ],
         },
@@ -91,7 +94,7 @@ const config: Config = {
         // },
       ],
       copyright: `
-        <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
+        // <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
         `,
     },
     algolia: {
