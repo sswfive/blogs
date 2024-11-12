@@ -4,8 +4,8 @@
   <ShortName>PyShen&amp;Blog</ShortName>
   <Description>Search PyShen&amp;Blog</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://sswfive.github.io/blogs/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://sswfive.github.io/blogs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://sswfive.github.io/blogs/opensearch.xml" />
-  <moz:SearchForm>https://sswfive.github.io/blogs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://sswfive.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://sswfive.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://sswfive.github.io/opensearch.xml" />
+  <moz:SearchForm>https://sswfive.github.io/</moz:SearchForm>
 </OpenSearchDescription>
