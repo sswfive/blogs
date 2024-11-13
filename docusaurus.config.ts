@@ -35,7 +35,7 @@ const config: Config = {
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫',
+        content: '编程爱好者, Web开发者, 搞过机器学习',
       },
     ],
     docs: {
@@ -94,7 +94,7 @@ const config: Config = {
         // },
       ],
       copyright: `
-        // <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
+        <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
         `,
     },
     algolia: {
