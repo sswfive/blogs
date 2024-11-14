@@ -1,19 +1,20 @@
 ---
-slug: hello-python
+id: hello-python
+slug: /hello-python
 title: Hello Python
-date: 2024-06-28 20:00:00
+date: 2024-06-28T20:00:00
 authors: PyShen
 tags: [Python]
 keywords: [Python]
+last_update:
+  date: 2024-11-13T20:00:00
 ---
 
+<!-- truncate -->
 
-
-:::tip
+:::tip 想法
 我有一个梦想，我写的代码，可以像诗歌一样优美。我有一个梦想，我做的设计，能恰到好处，既不过度，也无不足。这种带有一点洁癖的完美主义就像一把达摩克利斯之剑，时刻提醒我，不能将就、不能妥协。   ---摘自《代码精进之路：从码农到工匠》
 :::
-
-<!-- truncate -->
 
 
 ## Python之禅
