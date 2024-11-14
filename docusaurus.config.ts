@@ -71,11 +71,6 @@ const config: Config = {
         <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
         `,
     },
-    algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
-    },
     prism: {
       theme: themes.oneLight,
       darkTheme: themes.oneDark,
@@ -94,10 +89,10 @@ const config: Config = {
       ],
     },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-      category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      repo: 'sswfive/sswfive.github.io',
+      repoId: 'R_kgDONOPshA',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDONOPshM4CkRQ0',
       theme: 'light',
       darkTheme: 'dark_dimmed',
     } satisfies Partial<GiscusConfig>,
@@ -163,7 +158,6 @@ const config: Config = {
 
       }
     ],
-    // ['docusaurus-plugin-baidu-tongji', { token: 'c9a3849aa75f9c4a4e65f846cd1a5155' }],
     [
       '@docusaurus/plugin-pwa',
       {
