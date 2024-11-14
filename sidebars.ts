@@ -19,6 +19,14 @@ const sidebars: SidebarsConfig = {
       ]
     },
     {
+      label: 'ModelOps技术',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items:[
+       'skill/modelops/modelops-common-tech',
+      ]
+    },
+    {
       label: '云原生技术',
       type: 'category',
       link: { type: 'generated-index' },
@@ -31,8 +39,14 @@ const sidebars: SidebarsConfig = {
   ],
   python: [
     'python/introduction',
-    'python/hello-python',
-    'python/py-coding-standards',
+    {
+      label: 'Python工程实践',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'python/PythonEngineerPractice/pypi-source-usage'
+      ],
+    }
   ],
   tools: [
     'tools/introduction',

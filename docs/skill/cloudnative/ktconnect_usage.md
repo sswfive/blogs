@@ -2,7 +2,6 @@
 id: ktconnect-usage
 slug: ktconnect-usage
 title: k8s开发工具之KtConnect
-# date: 2024-07-17T21:24:25
 tags: [K8S, KtConnect]
 last_update:
   date: 2024-11-13T20:00:00
@@ -10,7 +9,7 @@ last_update:
 
 ## 概述
 
-- [官网链接](https://alibaba.github.io/kt-connect/#/)
+- [官网链接](https://alibaba.github.io/kt-connect/)
 
 KtConnect 是阿里开源的一款云原生协同开发测试解决方案,旨在提升开发者在Kubernetes 场景下的本地开发测试效率,它通过建立本地到K8S集群的双向通道,允许开发者在本地直接访问K8S集群服务,或将K8S集群的流量转发到本地.简言之,KtConnect是面向K8S的本地开发者辅助工具.
 

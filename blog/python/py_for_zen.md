@@ -1,13 +1,10 @@
 ---
-id: hello-python
-slug: /hello-python
-title: Hello Python
-date: 2024-06-28T20:00:00
+slug: /zen-of-python
+title: Life is short, I use Python
+date: 2024-11-10T20:00:00
 authors: PyShen
 tags: [Python]
 keywords: [Python]
-last_update:
-  date: 2024-11-13T20:00:00
 ---
 
 <!-- truncate -->

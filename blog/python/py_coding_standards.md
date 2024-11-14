@@ -1,12 +1,9 @@
 ---
-id: py-coding-standards
 slug: /py-coding-standards
 title: Python中的那些编码规范
-date: 2024-06-28T23:16:29
+date: 2024-11-10T23:16:29
 tags: [python]
 keywords: [python]
-last_update:
-  date: 2024-11-12T20:00:00
 ---
 
 <!-- truncate -->
