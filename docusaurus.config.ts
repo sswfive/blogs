@@ -51,9 +51,9 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: '博客', position: 'right', to: 'blog' },
+        { label: 'Python博客', position: 'right', to: 'blog' },
         { label: '知识库', position: 'right', to: 'docs/skill' },
-        { label: '捕蛇者说', position: 'right', to: 'python' },
+        { label: '捕蛇者说', position: 'right', to: 'docs/python' },
         { label: '工欲善器', position: 'right', to: 'docs/tools' },
         // { label: '友链', position: 'right', to: 'friends' },
         // { label: '关于', position: 'right', to: 'about' },
@@ -147,6 +147,7 @@ const config: Config = {
         docs: {
           path: 'docs',
           sidebarPath: 'sidebars.ts',
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
