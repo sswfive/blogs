@@ -50,6 +50,15 @@ const sidebars: SidebarsConfig = {
   ],
   tools: [
     'tools/introduction',
+    'tools/common-dev-tools-collection',
+    {
+      label: '开发类工具',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'tools/devtools/common-dev-tools-install',
+      ]
+    },
     {
       label: 'Plugins',
       type: 'category',
