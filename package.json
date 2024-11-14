@@ -29,6 +29,7 @@
     "index": "docker run -it --env-file=.env -e \"CONFIG=$(cat docsearch.json | jq -r tostring)\" algolia/docsearch-scraper"
   },
   "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^1.2.0",
     "@docusaurus/core": "3.6.1",
     "@docusaurus/plugin-ideal-image": "3.6.1",
     "@docusaurus/plugin-pwa": "3.6.1",

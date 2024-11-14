@@ -45,7 +45,7 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: '综合笔记', position: 'left', to: 'docs/skill' },
+        { label: '技术笔记', position: 'left', to: 'docs/skill' },
         { label: '捕蛇者说', position: 'left', to: 'docs/python' },
         { label: '工欲善器', position: 'left', to: 'docs/tools' },
         { label: '博客', position: 'right', to: 'blog' },
@@ -141,6 +141,28 @@ const config: Config = {
   plugins: [
     'docusaurus-plugin-image-zoom',
     '@docusaurus/plugin-ideal-image',
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        indexBlog: true,
+        indexDocSidebarParentCategories: 0,
+        includeParentCategoriesInPageTitle: false,
+        indexPages: false,
+        style: undefined,
+        maxSearchResults: 8,
+        lunr: {
+          tokenizerSeparator: /[\s\-]+/,
+          b: 0.75,
+          k1: 1.2,
+          titleBoost: 5,
+          contentBoost: 1,
+          tagsBoost: 3,
+          parentCategoriesBoost: 2,
+        }
+
+      }
+    ],
     // ['docusaurus-plugin-baidu-tongji', { token: 'c9a3849aa75f9c4a4e65f846cd1a5155' }],
     [
       '@docusaurus/plugin-pwa',

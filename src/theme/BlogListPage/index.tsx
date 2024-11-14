@@ -67,7 +67,7 @@ function BlogListPageContent(props: Props) {
       <h2 className="h2 mb-4 flex items-center justify-center text-center">
         <Translate id="theme.blog.title.new">博客</Translate>
       </h2>
-      <p className="mb-4 text-center">代码人生：编织技术与生活的博客之旅</p>
+      <p className="mb-4 text-center">编程是一种技艺，一种需要用心学习的技艺</p>
       <ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />
       <div className="row">
         <div className={'col col--12'}>
