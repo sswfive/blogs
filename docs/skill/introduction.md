@@ -3,27 +3,22 @@ id: introduction
 slug: /skill
 title: 技术笔记
 keywords:
-  - 前端
-  - 后端
-  - Vue
-  - React
-  - JavaScript
-  - Typescript
-  - 逆向
-  - HTTP
-  - 算法
+  - Python
+  - Go
+  - Cloud Native
+  - ModelOps
+  - DevOps
+  - 软件工程
 ---
 
-本页面为个人学习中所涉及相关技术栈的笔记汇总，包含但不限于
+:::info 
+本页是个人日常开发或学习过程记录的一些技术笔记，方便日后查阅。包含但不限于
+- Python
+- Go
+- Cloud Native
+- ModelOps
+- DevOps
+- 软件工程
+:::
 
-- Web
-- 前端
-- 后端
-- Vue
-- React
-- JavaScript & TypeScript
-- Node
-- 安卓
-- 逆向
-- HTTP
-- 算法
+```

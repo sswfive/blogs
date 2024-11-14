@@ -3,11 +3,9 @@ import type { Config } from '@docusaurus/types';
 import { themes } from 'prism-react-renderer';
 import type { GiscusConfig } from './src/components/Comment';
 
-// const beian = '闽ICP备2020017848号-2'
-// const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
-  title: 'PyShen&Blog',
+  title: 'PyShe&Blog',
   url: 'https://sswfive.github.io/',
   baseUrl: '/',
   favicon: 'img/head.png',
@@ -19,10 +17,6 @@ const config: Config = {
       '是一个由PyShen创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: ``,
-    // },
     image: 'img/head.png',
     metadata: [
       {
@@ -51,20 +45,17 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: 'Python博客', position: 'right', to: 'blog' },
-        { label: '知识库', position: 'right', to: 'docs/skill' },
-        { label: '捕蛇者说', position: 'right', to: 'docs/python' },
-        { label: '工欲善器', position: 'right', to: 'docs/tools' },
-        // { label: '友链', position: 'right', to: 'friends' },
-        // { label: '关于', position: 'right', to: 'about' },
+        { label: '综合笔记', position: 'left', to: 'docs/skill' },
+        { label: '捕蛇者说', position: 'left', to: 'docs/python' },
+        { label: '工欲善器', position: 'left', to: 'docs/tools' },
+        { label: '博客', position: 'right', to: 'blog' },
         {
           label: '更多',
           position: 'right',
           items: [
             { label: '归档', to: 'blog/archive' },
+            { label: '标签', to: 'blog/tags'},
             { label: '关于', to: 'about' }
-            // { label: '笔记', to: 'docs/skill' },
-            // { label: '工具推荐', to: 'docs/tools' },
           ],
         },
         // {
@@ -75,24 +66,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        // {
-        //   title: '学习',
-        //   items: [
-        //     { label: '博客', to: 'blog' },
-        //     { label: '归档', to: 'blog/archive' },
-        //     { label: '技术笔记', to: 'docs/skill' },
-        //     // { label: '实战项目', to: 'project' },
-        //   ],
-        // },
-        // {
-        //   title: '社交媒体',
-        //   items: [
-        //     { label: '关于我', to: '/about' },
-        //     { label: 'GitHub', href: social.github.href },
-        //   ],
-        // },
-      ],
+      links: [],
       copyright: `
         <p>Copyright © 20241111 - ${new Date().getFullYear()} PyShen. | Built with Docusaurus.</p>
         `,
@@ -181,22 +155,12 @@ const config: Config = {
       },
     ],
     [
-      'vercel-analytics',
-      {
-        debug: process.env.NODE_ENV === 'development',
-        mode: 'auto',
-      },
-    ],
-    [
       './src/plugin/plugin-content-blog', // 为了实现全局 blog 数据，必须改写 plugin-content-blog 插件
       {
         path: 'blog',
-        editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
-        editLocalizedFiles: false,
-        blogDescription: '代码人生：编织技术与生活的博客之旅',
+        blogDescription: '编程是一种技艺，一种需要用心学习的技艺',
         blogSidebarCount: 10,
-        blogSidebarTitle: '博文',
+        blogSidebarTitle: '博客主页',
         postsPerPage: 12,
         showReadingTime: true,
         readingTime: ({ content, frontMatter, defaultReadingTime }) =>
@@ -230,18 +194,12 @@ const config: Config = {
                 tagName: 'script',
                 innerHTML: `
     (${function () {
-      console.log(
-        `%c Kz Blog %c https://github.com/kuizuo/blog`,
-        'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
-        'margin: 1em 0; padding: 5px 0; background: #efefef;',
-      )
-
       const motto = `
-This Webisite Powered By Kz Blog.
-Written by Docusaurus, Coding with Love.
---------
-Love what you do and do what you love.
-`
+          This Webisite Powered By PyShen Blog.
+          Written by Docusaurus, Coding with Love.
+          --------
+          Love what you do and do what you love.
+          `
 
       if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
         document.prepend(document.createComment(motto))

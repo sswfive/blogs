@@ -3,6 +3,31 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 const sidebars: SidebarsConfig = {
   skill: [
     'skill/introduction',
+    {
+      label: '编程语言',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items:[
+        {
+          label: 'Python',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items:[
+            'skill/codelang/python/env-package-selection',
+          ],
+        }
+      ]
+    },
+    {
+      label: '云原生技术',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items:[
+        'skill/cloudnative/ktconnect-usage'
+      ]
+    },
+    
+
   ],
   python: [
     'python/introduction',
@@ -19,12 +44,10 @@ const sidebars: SidebarsConfig = {
         id: 'tools/plugins/plugins-guide',
       },
       items: [
-        'tools/chrome-plugins',
-        'tools/vscode-plugins'
+        'tools/plugins/chrome-plugins',
+        'tools/plugins/vscode-plugins'
       ]
     },
-    'tools/chrome-plugins',
-    'tools/vscode-plugins'
     ],
 }
 
