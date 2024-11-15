@@ -5,7 +5,7 @@ title: 常用软件工具集合
 tags: [tools, 开源工具]
 keywords: [tools, 开源工具]
 last_update:
-  date: 2024-11-15T07:30:01
+  date: 2024-11-16T00:00:24
 ---
 
 ## 开发工具类软件
@@ -227,6 +227,9 @@ last_update:
 
 - [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
     - 使用HWID/Ohook/KMS38/在线KMS激活方法的 Windows 和 Office 激活工具，注重开源代码和较少的杀毒软件检测
+
+- [KMS.CX](https://kms.cx/)
+    - 一款一键激活 windows/office的工具。
 
 ## 下载类软件
 - [AnyBT](https://anybt.eth.limo/):
