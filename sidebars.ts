@@ -24,6 +24,7 @@ const sidebars: SidebarsConfig = {
       link: { type: 'generated-index' },
       items:[
        'skill/modelops/modelops-common-tech',
+       'skill/modelops/kserve-deploy',
       ]
     },
     {
@@ -34,17 +35,23 @@ const sidebars: SidebarsConfig = {
         'skill/cloudnative/ktconnect-usage'
       ]
     },
-    
-
   ],
   python: [
     'python/introduction',
     {
-      label: 'Python工程实践',
+      label: '工程实践',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
         'python/PythonEngineerPractice/pypi-source-usage'
+      ],
+    },
+    {
+      label: '常用类库',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'python/PythonLibs/python-libs-awesome'
       ],
     }
   ],
